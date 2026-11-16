@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Conversation Notes",
+  "version": "0.9.6",
+  "minimum_chrome_version": "138",
+  "description": "Record conversations, edit transcripts, organize folders, and generate study notes, flashcards, and quizzes locally with Chrome’s AI on supported computers.",
+  "permissions": [
+    "offscreen",
+    "storage"
+  ],
+  "action": {
+    "default_title": "Open Conversation Notes in a tab"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
